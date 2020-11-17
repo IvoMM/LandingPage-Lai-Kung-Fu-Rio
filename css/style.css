@@ -1,0 +1,165 @@
+@charset "UTF-8"
+
+body{
+
+}
+
+.container-fluid{
+	font-family: 'Noto Sans';
+	background-image: url(../imagens/background.jpg);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: auto 700px;
+}
+
+@media (min-width: 1050px){
+	.container-fluid{ 
+	background-size: contain; }
+
+}
+
+
+.container{
+	font-size: 12px;
+	color: white;
+}
+
+header{
+	background-color: rgba(0,0,0,.3)
+}
+
+nav{
+
+}
+
+nav img{
+	height:3em;
+}
+
+/* Início Cor do Toggler de Navegação*/
+.custom-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#118649' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+	border-color: #118649;
+} 
+/* Fim Cor do Toggler de Navegação*/
+
+.nav-link{
+	color: #f3f3f3 !important;
+}
+
+.nav-link:hover {
+	color: #118649 !important;
+}
+
+.dropdown-menu {
+	background-color: rgba(0,0,0,0.3);
+}
+
+.dropdown-item {
+	color: #f3f3f3;
+	font-size: 12px;
+}
+
+.btn-area-aluno {
+	background-color: #f3f3f3;
+	border-radius: 5em;
+	font-size: 12px;
+}
+
+.btn-area-aluno:hover {
+	background-color: #118649;
+}
+
+.conteudo {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.a-direita {
+	text-align: right;
+}
+
+h1 {
+	font-family: 'Oswald';
+	font-size: 36px;
+	font-weight: 400;
+	color: #fdff9c;
+}
+
+h3 {
+	font-family: 'Oswald';
+	font-size: 18px;
+	font-weight: 400;
+	color: #f3f3f3;
+}
+
+label{
+	font-family: 'Oswald';
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.form-laikungfu {
+	border-color: #118649;
+	border-width: 2px;
+	background-color: rgba(243,243,243,0.7);
+}
+
+.btn-formulario {
+	background-color: #118649;
+	font-size: 16px;
+	color: #f3f3f3;
+}
+
+.btn-formulario:hover {
+	background-color: #27B66D;
+	color: #f3f3f3;
+}
+
+footer {
+	background-color: #073425;
+}
+
+.item-mapa{
+	margin-top: 1.8em;
+}
+
+.sub-item-mapa {
+	font-weight: 300;
+	margin-top: 0.7em;
+}
+
+footer li {
+	margin: .3em 0em;
+	font-weight: 700;
+}
+
+footer li a {
+	color: #f3f3f3 !important;
+}
+
+footer img {
+	width: 80%;
+}
+
+.fab{
+	padding: 8px;
+	font-size: 18px;
+	width: 34px;
+	border-radius: 50%;
+	background-color: #118649;
+	color: #073425;
+	text-align: center;
+}
+
+.fab:hover{
+	background-color: #fdff9c;
+	text-decoration: none;
+	color: #073425;
+}
+
+.copyright {
+	font-family: 'Oswald';
+}
