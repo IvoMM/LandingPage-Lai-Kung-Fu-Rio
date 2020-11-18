@@ -111,6 +111,7 @@ label{
 	background-color: #118649;
 	font-size: 16px;
 	color: #f3f3f3;
+	border-radius: 2em;
 }
 
 .btn-formulario:hover {
