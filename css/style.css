@@ -14,7 +14,7 @@ body{
 
 @media (min-width: 1050px){
 	.container-fluid{ 
-	background-size: contain; }
+	background-size: 100%; }
 
 }
 
