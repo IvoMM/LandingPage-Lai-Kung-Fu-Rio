@@ -9,7 +9,7 @@ body{
 	background-image: url(../imagens/background.jpg);
 	background-position: 0px 0px;
 	background-repeat: no-repeat;
-	background-size: auto 700px;
+	background-size: auto 98vh;
 }
 
 @media (min-width: 1050px){
