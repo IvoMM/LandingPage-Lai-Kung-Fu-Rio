@@ -7,17 +7,32 @@ body{
 .container-fluid{
 	font-family: 'Noto Sans';
 	background-image: url(../imagens/background.jpg);
-	background-position: 0px 0px;
+	background-position: 15% 0px;
 	background-repeat: no-repeat;
+	background-size: auto 128vh;
+	background-color: black;
+}
+
+@media (min-width: 768px){
+	.container-fluid{
+	background-position: -100px 0px;
+	background-size: auto 128vh;
+	}
+}
+
+@media (min-width: 992px){
+	.container-fluid{
+	background-position: 0px 0px;
 	background-size: auto 98vh;
+	}
 }
 
 @media (min-width: 1050px){
 	.container-fluid{ 
+	background-position: 0px 0px;
 	background-size: 100%; }
 
 }
-
 
 .container{
 	font-size: 12px;
@@ -144,6 +159,11 @@ footer li a {
 footer img {
 	width: 80%;
 }
+
+@media (min-width: 768px){
+	footer img{
+		width: 80%;
+	}
 
 .fab{
 	padding: 8px;
